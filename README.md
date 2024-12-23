@@ -16,3 +16,6 @@ This is the place where code is executed "One Line at a Time"
 // with GEC at the bottom and each execution context created will be placed on top of it
 // execution will happen in LIFO format only
 // once all the execution context is executed it will clear out the call stack -->
+Hoisting
+<!-- Hoisting is a phenomina in Javascript by which we ca access variable and function before its been initialized -->
+<!-- As per GEC in index.js when the variable is called in the first line it got its place in Memory component/ veriable enviroment as undefined and for function the whole funtion is copied as value with function name as key. so when the Index.js run`s it gives undefined a to variable and console log to the function . -->
