@@ -1,7 +1,15 @@
+// var a = 10;
+// function square (number){
+//     var result=number*number;
+//     return result;
+// }
+// var squareA = square(18);
+// var squareB = square(a)
+pr();
+console.log(a);
+console.log(pr);
 var a = 10;
-function square (number){
-    var result=number*number;
-    return result;
+
+function pr() {
+  console.log("Lets print for Hoisting");
 }
-var squareA = square(18);
-var squareB = square(a)
