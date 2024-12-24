@@ -13,3 +13,13 @@ var a = 10;
 function pr() {
   console.log("Lets print for Hoisting");
 }
+
+//Hoisting
+function a() {
+  b();
+  function b() {
+    console.log(x);
+  }
+}
+var x = 10;
+a();
